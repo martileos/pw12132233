@@ -1,0 +1,126 @@
+body{
+	font-size: 16px; /*1em*/
+	margin: 0px auto;
+	/*1078 es requerimiento del cliente*/
+	max-width: 1078px;
+	min-height: 1078px;
+}
+header input{
+	float: right;
+	margin-right: -200px;
+	margin-top: 15px;
+/*	position: relative;*/
+}
+header nav{
+	margin-left: 220px;
+/*	text-align: center;*/
+}
+header nav ul li{
+	border-bottom: 1px solid gray;
+	color: gray;
+	display: inline-block;
+	font-size: 1.8em;
+	margin-right: 15px;
+	padding-bottom: 2px;
+	/*text-decoration: underline;*/
+}
+#bgoffer{
+	left: -35px;
+	position: relative;
+	top: -410px;
+}
+#granthams{
+	margin-left: 25px;
+	margin-top: 25px;	
+}
+#paint{
+	float: right;
+}
+#primerseccion{
+/*	border: 1px solid blue;*/
+	height: 318px;
+	margin-top: 60px;
+}
+#primerseccion article{
+	/*border: 1px solid red;*/
+	display: inline-block;
+	vertical-align: top;
+}
+#secc01art01{
+	margin-left: 30px;
+	width: 61%;
+}
+#secc01art02{
+	margin-left: 50px;
+	width: 30%;
+}
+#secc01art02 ul{
+	/* eliminar viñeta */
+	list-style: none; 
+}
+#secc01art02 ul li:before{
+	color: #FF0099;
+	content: "• ";
+}
+
+#secc03art04{
+	padding-top: 60px;
+}
+#segundaseccion article{
+	padding-right: 130px;
+	text-align: right;
+}
+#terceraseccion article{
+	display: inline-block;
+	padding-left: 8px;
+	vertical-align: top;
+	width: 23%;
+}
+#terceraseccion article img{
+/*	Alineación vertical 
+	del texto que lo rodea*/
+	vertical-align: middle;
+}
+#terceraseccion article input{
+	border-radius: 5px;
+}
+#terceraseccion article input[type="button"]{
+	background: #8BC500;
+	color: white;
+}
+
+.colorazul{
+	color: #4267B3;
+}
+.colorrosa{
+	color: #FF0099;
+}
+.colorverde{
+	color: #8BC500;
+}
+.letragrande{
+	font-size: 3.5em; /* 3.5x16 */
+}
+.letramediana{
+	font-size: 2em;
+}
+.nito{
+	font-weight: bold; /* negritas */
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
